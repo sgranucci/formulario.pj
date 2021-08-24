@@ -1,0 +1,228 @@
+/*
+ *
+ * 
+ * STYLES MOD 1 
+ *
+ *
+*/
+
+.reportes-mod1 {
+  padding: 24px 0;
+}
+
+.reportes-mod1 .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.reportes-mod1 .container img:first-of-type {
+  height: 265px;
+}
+
+.reportes-mod1 .container img:last-of-type {
+  height: 265px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (min-width: 1700px) {
+  .reportes-mod1 .container {
+    max-width: 1580px;
+  }
+  .reportes-mod1 .container img:first-of-type,
+  .reportes-mod1 .container img:last-of-type {
+    height: 345px;
+  }
+}
+
+.reportes-mod1 .container article {
+  width: 350px;
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+  color: #fff;
+}
+
+.reportes-mod1 .container article h1 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.1;
+}
+
+.reportes-mod1 .container article h1 span {
+  font-weight: 900;
+}
+
+.reportes-mod1 .container article p {
+  margin: 18px 0;
+  line-height: 1.3;
+}
+
+.reportes-mod1 .container article a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.reportes-mod1 .container article a:hover {
+  background: #fff;
+  color: #0083a7;
+}
+
+/*
+ *
+ * 
+ * STYLES MOD 2 
+ *
+ *
+*/
+
+.reportes-mod2 {
+  margin-top: 32px;
+  padding: 0 0 48px;
+  position: relative;
+  min-height: 400px;
+}
+
+.reportes-mod2 > img:first-of-type {
+  position: absolute;
+  left: -100px;
+  top: 0;
+}
+
+.reportes-mod2 > img:last-of-type {
+  height: 60%;
+  position: absolute;
+  right: -80px;
+  bottom: 0;
+}
+
+.reportes-mod2 .container {
+  width: 1000px;
+}
+
+.reportes-mod2 .container .reportes-list li {
+  margin-bottom: 24px;
+  cursor: pointer;
+  height: 44px;
+  overflow: hidden;
+}
+
+.reportes-mod2 .container .reportes-list li h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #4482a5;
+}
+
+.reportes-mod2 .container .reportes-list li p {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.reportes-mod2 .container .reportes-list li.active {
+  height: auto;
+  transition: height 0.5s;
+}
+
+.reportes-mod2 .container .reportes-list > li ul li .icon {
+  width: 80px;
+  height: 80px;
+  background: #e6eef4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reportes-mod2 .container .reportes-list > li ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 32px;
+}
+
+.reportes-mod2 .container .reportes-list > li ul li {
+  height: auto;
+  text-align: center;
+}
+
+.reportes-mod2 .container .reportes-list > li ul li .icon {
+  margin-bottom: 18px;
+}
+
+.reportes-mod2 .container .reportes-list > li ul li .icon img {
+  width: 40%;
+}
+
+.reportes-mod2 .container .reportes-list > li ul li h4 {
+  color: #5b5b5b;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.reportes-mod2 .container .reportes-list > li ul li p {
+  color: #5b5b5b;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*
+ *
+ * 
+ * MOBILE
+ *
+ *
+*/
+
+@media screen and (max-width: 768px) {
+  .reportes-mod1 .container {
+    width: 100%;
+  }
+  .reportes-mod1 .container img:first-of-type,
+  .reportes-mod1 .container img:last-of-type {
+    display: none;
+  }
+  .reportes-mod1 .container article {
+    width: 100%;
+    height: auto;
+    background: #0083a7;
+    position: static;
+    padding: 20px;
+  }
+  .reportes-mod2 > img:first-of-type,
+  .reportes-mod2 > img:last-of-type {
+    display: none;
+  }
+  .reportes-mod2 .container {
+    width: 90%;
+  }
+  .reportes-mod1 .container article h1 {
+    font-size: 30px;
+  }
+  .reportes-mod2 .container .reportes-list li h3 {
+    font-size: 16px;
+  }
+  .reportes-mod2 .container .reportes-list > li ul {
+    flex-wrap: wrap;
+  }
+  .reportes-mod2 .container .reportes-list > li ul li .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .reportes-mod2 .container .reportes-list > li ul li h4 {
+    font-size: 14px;
+  }
+  .reportes-mod2 .container .reportes-list > li ul li p {
+    font-size: 12px;
+  }
+}

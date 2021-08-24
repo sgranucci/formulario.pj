@@ -1,0 +1,471 @@
+%FDF-1.2
+%âãÏÓ
+1 0 obj 
+<<
+/FDF 
+<<
+/Fields [
+<<
+	/T (Nombre_apellido_tit1)
+/V ()
+>>  
+<<
+	/T (Nombre_apellido_tit2)
+/V ()
+>> 
+<<
+	/T (DiaNac_tit1)
+/V ()
+>> 
+<<
+	/T (DiaNac_tit2)
+/V ()
+>> 
+<<
+	/T (Lugar_tit1)
+/V ()
+>> 
+<<
+	/T (Lugar_tit2)
+/V ()
+>> 
+<<
+	/T (Nacionalidad_tit1)
+/V ()
+>> 
+<<
+	/T (Nacionalidad_tit2)
+/V ()
+>> 
+<<
+	/T (Tipo documento_tit2)
+/V ()
+>> 
+<<
+	/T (Tipo documento_tit1)
+/V ()
+>> 
+<<
+	/T (Estado civil_tit1)
+/V ()
+>> 
+<<
+	/T (Estado civil_tit2)
+/V ()
+>> 
+<<
+	/T (Genero_tit1)
+/V ()
+>> 
+<<
+	/T (Genero_tit2)
+/V ()
+>> 
+<<
+	/T (Celular_tit1)
+/V ()
+>> 
+<<
+	/T (Celular_tit2)
+/V ()
+>> 
+<<
+	/T (Email_tit1)
+/V ()
+>> 
+<<
+	/T (Email_tit2)
+/V ()
+>> 
+
+
+
+<<
+	/T (Calle_tit1)
+/V ()
+>> 
+<<
+	/T (Calle_tit2)
+/V ()
+>> 
+<<
+	/T (Piso_tit1)
+/V ()
+>> 
+<<
+	/T (Piso_tit2)
+/V ()
+>> 
+<<
+	/T (Numero_2_tit1)
+/V ()
+>> 
+<<
+	/T (Numero_2_tit2)
+/V ()
+>> 
+<<
+	/T (CP_tit1)
+/V ()
+>> 
+<<
+	/T (CP_tit2)
+/V ()
+>> 
+<<
+	/T (Localidad_tit1)
+/V ()
+>>
+<<
+	/T (Localidad_tit2)
+/V ()
+>> 
+<<
+	/T (Provincia_tit1)
+/V ()
+>> 
+<<
+	/T (Provincia_tit2)
+/V ()
+>> 
+<<
+	/T (Pais_tit1)
+/V ()
+>> 
+<<
+	/T (Pais_tit2)
+/V ()
+>> 
+
+
+
+<<
+	/T (cuit_tit1)
+/V ()
+>> 
+<<
+	/T (cuit_tit2)
+/V ()
+>> 
+
+
+
+<<
+	/T (Profesion_tit1)
+/V ()
+>> 
+<<
+	/T (Profesion_tit2)
+/V ()
+>> 
+
+
+
+<<
+	/T (NombreCony_tit1)
+/V ()
+>> 
+<<
+	/T (NombreCony_tit2)
+/V ()
+>> 
+<<
+	/T (ApellidoCony_tit1)
+/V ()
+>> 
+<<
+	/T (ApellidoCony_tit2)
+/V ()
+>> 
+<<
+/T (Cuit cuil dni_tit1)
+/V ()
+>> 
+<<
+/T (Cuit cuil dni_tit2)
+/V ()
+>> 
+
+
+
+<<
+/T (DenominacionDDJJ)
+/V ()
+>> 
+<<
+/T (leyfacta_tit1)
+/V ()
+>> 
+<<
+/T (Leyfacta_tit2)
+/V ()
+>> 
+<<
+/T (residenciafiscal_tit1)
+/V ()
+>> 
+<<
+/T (residenciafiscal_tit2)
+/V ()
+>> 
+<<
+/T (MotivoPEP_tit1)
+/V ()
+>> 
+<<
+/T (MotivoPEP_tit2)
+/V ()
+>> 
+<<
+/T (Pais y Autoridad de Emisionpep_tit1)
+/V ()
+>> 
+<<
+/T (Pais y Autoridad de Emisionpep_tit2)
+/V ()
+>> 
+<<
+/T (NumeroPEP_tit1)
+/V ()
+>> 
+<<
+/T (NumeroPEP_tit2)
+/V ()
+>> 
+<<
+/T (SujetoObligado_tit1)
+/V ()
+>> 
+<<
+/T (SujetoObligado_tit2)
+/V ()
+>> 
+<<
+	/T (Documento Tipo3_tit2)
+/V ()
+>> 
+<<
+	/T (Documento Tipo3_tit1)
+/V ()
+>> 
+<<
+/T (NombrePEP_tit1)
+/V ()
+>> 
+<<
+/T (NombrePEP_tit2)
+/V ()
+>> 
+<<
+/T (ConvenioAAGI)
+/V ()
+>> 
+<<
+/T (Caracter invocado4_tit1)
+/V ()
+>> 
+<<
+/T (Caracter invocado4_tit2)
+/V ()
+>> 
+<<
+/T (Cuenta)
+/V ()
+>> 
+<<
+/T (Lugar y fecha_tit1)
+/V ()
+>> 
+<<
+/T (Lugar y fecha_tit2)
+/V ()
+>> 
+<<
+/T (FECHA)
+/V ()
+>> 
+<<
+/T (domicilio extranjero si no_tit1)
+/V ()
+>> 
+<<
+/T (domicilio extranjero si no_tit2)
+/V ()
+>> 
+<<
+/T (identifiaciontributaria_ti1)
+/V ()
+>> 
+<<
+/T (identifiaciontributaria_tit2)
+/V ()
+>> 
+<<
+/T (si_no_pep_tit1)
+/V ()
+>>
+<<
+/T (si_no_pep_tit2)
+/V ()
+>> 
+
+
+
+<<
+/T (form1a)
+/V ()
+>> 
+<<
+/T (form1b)
+/V ()
+>> 
+<<
+/T (form1c)
+/V ()
+>> 
+<<
+/T (form1d)
+/V ()
+>> 
+
+<<
+/T (form2a)
+/V ()
+>> 
+<<
+/T (form2b)
+/V ()
+>> 
+<<
+/T (form2c)
+/V ()
+>> 
+
+<<
+/T (form3a)
+/V ()
+>> 
+<<
+/T (form3b)
+/V ()
+>> 
+
+<<
+/T (form4a)
+/V ()
+>> 
+<<
+/T (form4b)
+/V ()
+>> 
+<<
+/T (form4c)
+/V ()
+>> 
+<<
+/T (form4d)
+/V ()
+>> 
+
+<<
+/T (form5a)
+/V ()
+>> 
+<<
+/T (form5b)
+/V ()
+>> 
+<<
+/T (form5c)
+/V ()
+>> 
+<<
+/T (form5d)
+/V ()
+>> 
+
+<<
+/T (form6a)
+/V ()
+>> 
+<<
+/T (form6b)
+/V ()
+>> 
+<<
+/T (form6c)
+/V ()
+>> 
+
+<<
+/T (form7a)
+/V ()
+>> 
+<<
+/T (form7b)
+/V ()
+>> 
+<<
+/T (form7c)
+/V ()
+>> 
+<<
+/T (form7d)
+/V ()
+>> 
+
+<<
+/T (form8a)
+/V ()
+>> 
+<<
+/T (form8b)
+/V ()
+>> 
+<<
+/T (form8c)
+/V ()
+>> 
+<<
+/T (form8d)
+/V ()
+>> 
+
+<<
+/T (form9a)
+/V ()
+>> 
+<<
+/T (form9b)
+/V ()
+>> 
+<<
+/T (form9c)
+/V ()
+>> 
+
+<<
+/T (Resultado)
+/V ()
+>> 
+
+
+<<
+/T (fondo13)
+/V /S#c3#ad
+>> 
+
+<<
+/T (TI-1)
+/V /
+>> 
+]
+>>
+>>
+endobj 
+trailer
+
+<<
+/Root 1 0 R
+>>
+%%EOF

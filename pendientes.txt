@@ -1,0 +1,8 @@
+
+SAILING
+Armar formulario sailing
+Definir los roles
+Armar listado de usuarios en proceso de carga
+definir proceso de chequeo para validar la carga
+ingresar el usuario al crm
+

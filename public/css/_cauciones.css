@@ -1,0 +1,266 @@
+/*
+ *
+ * 
+ * STYLES MOD 1 
+ *
+ *
+*/
+
+.cauciones-mod1 {
+  padding: 24px 0;
+}
+
+.cauciones-mod1 .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cauciones-mod1 .container img:first-of-type {
+  height: 265px;
+}
+
+.cauciones-mod1 .container img:last-of-type {
+  height: 265px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (min-width: 1700px) {
+  .cauciones-mod1 .container {
+    max-width: 1580px;
+  }
+  .cauciones-mod1 .container img:first-of-type,
+  .cauciones-mod1 .container img:last-of-type {
+    height: 345px;
+  }
+}
+
+.cauciones-mod1 .container article {
+  width: 350px;
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+  color: #fff;
+}
+
+.cauciones-mod1 .container article h1 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.1;
+}
+
+.cauciones-mod1 .container article h1 span {
+  font-weight: 900;
+}
+
+.cauciones-mod1 .container article p {
+  margin: 18px 0;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.cauciones-mod1 .container article a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.cauciones-mod1 .container article a:hover {
+  background: #fff;
+  color: #0083a7;
+}
+
+/*
+ *
+ * 
+ * STYLES MOD 2 
+ *
+ *
+*/
+
+.cauciones-mod2 {
+  margin-top: 32px;
+  padding: 0 0 0px;
+  position: relative;
+  min-height: unset;
+}
+
+.cauciones-mod2 > img:first-of-type {
+  position: absolute;
+  left: -100px;
+  top: 0;
+}
+
+.cauciones-mod2 > img:last-of-type {
+  height: 80%;
+  position: absolute;
+  right: -80px;
+  bottom: 0;
+}
+
+.cauciones-mod2 .container {
+  width: 1000px;
+}
+
+.cauciones-mod2 .container .tabs {
+  border-bottom: 1px solid #5e5e5e;
+  display: flex;
+}
+
+.cauciones-mod2 .container .tabs li {
+  padding: 10px;
+  font-weight: 700;
+  color: #5e5e5e;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cauciones-mod2 .container .tabs li.active {
+  border-bottom: 2px solid #4682a5;
+  color: #4682a5;
+}
+
+.cauciones-mod2 .container section {
+  padding: 24px 0 0 0;
+}
+
+.cauciones-mod2 .container section:not(:nth-of-type(1)) {
+  display: none;
+}
+
+.cauciones-mod2 .container section p {
+  color: #5e5e5e;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.cauciones-mod2 .container section h3 {
+  margin-top: 24px;
+  text-align: center;
+  color: #0083a7;
+}
+
+.cauciones-mod2 .container section a {
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 24px;
+  background: #4482a5;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #4482a5;
+}
+
+.cauciones-mod2 .container section a:hover {
+  background: #fff;
+  color: #4482a5;
+}
+
+.cauciones-mod2 .container section ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.cauciones-mod2 .container section ul li {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 32px;
+  cursor: pointer;
+  min-height: 206px;
+}
+
+.cauciones-mod2 .container section ul li:nth-child(4),
+.cauciones-mod2 .container section ul li:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.cauciones-mod2 .container section ul li .icon {
+  width: 100px;
+  height: 100px;
+  background: #e6eef4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cauciones-mod2 .container section ul li .icon img {
+  width: 60%;
+}
+
+.cauciones-mod2 .container section ul li h3 {
+  color: #5c5c5a;
+  font-size: 20px;
+  margin: 20px 0 8px;
+}
+
+/* .cauciones-mod2 .container section ul li.active h3 {
+  color: #0083a7;
+} */
+
+.cauciones-mod2 .container section ul li p {
+  width: 250px;
+  margin: auto;
+  font-size: 14px;
+  color: #b4b4b4;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.cauciones-mod2 .container section ul li:hover p {
+  color: #5c5c5a;
+  font-weight: 600;
+}
+
+/*
+ *
+ * 
+ * MOBILE
+ *
+ *
+*/
+
+@media screen and (max-width: 768px) {
+  .cauciones-mod1 .container {
+    width: 100%;
+  }
+  .cauciones-mod1 .container img:first-of-type,
+  .cauciones-mod1 .container img:last-of-type {
+    display: none;
+  }
+  .cauciones-mod1 .container article {
+    width: 100%;
+    height: auto;
+    background: #0083a7;
+    position: static;
+    padding: 20px;
+  }
+  .cauciones-mod2 > img,
+  .cauciones-mod3 > img {
+    display: none;
+  }
+  .cauciones-mod2 .container {
+    width: 90%;
+  }
+  .cauciones-mod2 .container .tabs li {
+    text-align: center;
+  }
+  .cauciones-mod1 .container article h1 {
+    font-size: 30px;
+  }
+  .cauciones-mod1 .container article p,
+  .cauciones-mod1 .container article a,
+  .cauciones-mod2 .container .tabs li,
+  .cauciones-mod2 .container section p,
+  .cauciones-mod2 .container section a {
+    font-size: 14px;
+  }
+}

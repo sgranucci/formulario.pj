@@ -1,0 +1,223 @@
+/*
+ *
+ * 
+ * STYLES MOD 1 
+ *
+ *
+*/
+
+.contacto-mod1 {
+  padding: 24px 0;
+}
+
+.contacto-mod1 .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.contacto-mod1 .container img:first-of-type {
+  height: 265px;
+}
+
+.contacto-mod1 .container img:last-of-type {
+  height: 265px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (min-width: 1700px) {
+  .contacto-mod1 .container {
+    max-width: 1580px;
+  }
+  .contacto-mod1 .container img:first-of-type,
+  .contacto-mod1 .container img:last-of-type {
+    height: 345px;
+  }
+}
+
+.contacto-mod1 .container article {
+  width: 350px;
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+  color: #fff;
+}
+
+.contacto-mod1 .container article h1 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.1;
+}
+
+.contacto-mod1 .container article h1 span {
+  font-weight: 900;
+}
+
+.contacto-mod1 .container article p {
+  margin: 18px 0;
+  line-height: 1.3;
+}
+
+/*
+ *
+ * 
+ * STYLES MOD 2 
+ *
+ *
+*/
+
+.contacto-mod2 {
+  margin-top: 32px;
+  padding: 0 0 18px;
+  position: relative;
+  min-height: 400px;
+  font-size: 14px;
+
+}
+
+.contacto-mod2 > img {
+  position: absolute;
+  left: -100px;
+  top: 0;
+}
+
+.contacto-mod2 .container {
+  width: 100%;
+}
+
+.abrir, .logout {
+  flex: 1;
+  align-items: flex-end;
+  display: block;
+  margin-right: 5px;
+  margin-top: 0px;
+  padding: 8px;
+  border: 2px solid #0083a7;
+  border-radius: 10px;
+  color: #234ec5;
+  font-size: 14px;
+  text-align: center;
+}
+a {
+  color: #0083a7;
+  text-decoration: unset;
+}
+.contacto-mod2 .container h2 {
+  color: #4681a4;
+  border-bottom: 1px solid #5b5b59;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.form-control {
+  font-size: 14px;
+  color: gray;
+}
+.contacto-mod2 .container form {
+  width: 90%;
+  margin: 32px auto 48px;
+}
+
+.contacto-mod2 .container form div {
+  display: flex;
+  padding: 12px 0;
+}
+
+.contacto-mod2 .container form div p,
+.contacto-mod2 .container form div label {
+  color: #5b5b5b;
+  font-weight: 600;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 24px;
+  padding: 8px 0;
+}
+
+.contacto-mod2 .container form div > input {
+  flex: 1;
+  display: block;
+  margin-right: 5px;
+  padding: 8px;
+  border: 2px solid #0083a7;
+  border-radius: 5px;
+  color: #848484;
+  font-size: 14px;
+}
+
+.contacto-mod2 .container form div > input[type="submit"] {
+  background: #0083a7;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contacto-mod2 .container form div > input[type="submit"].enviado {
+  cursor: default;
+  pointer-events: none;
+}
+
+.contacto-mod2 .container iframe {
+  display: block;
+  width: 90%;
+  margin: 32px auto;
+  height: 400px;
+}
+
+.contacto-mod2 .container .data {
+  width: 90%;
+  margin: auto;
+  padding-left: 17px;
+}
+
+.contacto-mod2 .container .data p {
+  color: #102e47;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+
+.contacto-mod2 .container .data p.dif {
+  position: relative;
+  left: -17px;
+}
+
+/*
+ *
+ * 
+ * MOBILE
+ *
+ *
+*/
+
+@media screen and (max-width: 768px) {
+  .contacto-mod1 .container {
+    width: 100%;
+  }
+  .contacto-mod1 .container img:first-of-type,
+  .contacto-mod1 .container img:last-of-type {
+    display: none;
+  }
+  .contacto-mod1 .container article {
+    width: 100%;
+    height: auto;
+    background: #0083a7;
+    position: static;
+    padding: 20px;
+  }
+  .contacto-mod2 > img:first-of-type,
+  .contacto-mod2 > img:last-of-type {
+    display: none;
+  }
+  .contacto-mod2 .container {
+    width: 90%;
+  }
+  .contacto-mod2 .container form div {
+    flex-direction: column;
+  }
+  .contacto-mod2 .container form div > input {
+    margin: 0 0 10px;
+  }
+  .contacto-mod1 .container article h1 {
+    font-size: 30px;
+  }
+}

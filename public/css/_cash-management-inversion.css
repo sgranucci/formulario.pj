@@ -1,0 +1,125 @@
+/*
+ *
+ * 
+ * STYLES MOD 1 
+ *
+ *
+*/
+
+.cmi-mod1 {
+  padding: 24px 0;
+}
+
+.cmi-mod1 .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cmi-mod1 .container img:first-of-type {
+  height: 265px;
+}
+
+.cmi-mod1 .container img:last-of-type {
+  height: 265px;
+  position: absolute;
+  right: 0;
+}
+@media screen and (min-width: 1700px) {
+  .cmi-mod1 .container {
+    max-width: 1580px;
+  }
+  .cmi-mod1 .container img:first-of-type,
+  .cmi-mod1 .container img:last-of-type {
+    height: 345px;
+  }
+}
+.cmi-mod1 .container article {
+  width: 350px;
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+  color: #fff;
+}
+
+.cmi-mod1 .container article h1 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.1;
+}
+
+.cmi-mod1 .container article h1 span {
+  font-weight: 900;
+}
+
+.cmi-mod1 .container article p {
+  margin: 18px 0;
+  line-height: 1.3;
+  font-size: 24px;
+}
+
+/*
+ *
+ * 
+ * STYLES MOD 2 
+ *
+ *
+*/
+
+.cmi-mod2 {
+  margin-top: 32px;
+  padding: 24px 0 48px;
+  position: relative;
+}
+
+.cmi-mod2 > img {
+  position: absolute;
+  left: -100px;
+  top: 0;
+}
+
+.cmi-mod2 .container {
+  width: 1000px;
+}
+
+.cmi-mod2 .container > article > p {
+  color: #5e5e5e;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.cmi-mod2 .container > article > p span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .cmi-mod1 img{
+    display: none;
+  }
+  .cmi-mod1 .container{
+    width: 100%;
+  }
+  .cmi-mod1 .container article {
+    width: 100%;
+    height: auto;
+    background: #0083a7;
+    position: static;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .cmi-mod1 .container article p{
+    text-align: left;
+  }
+  .cmi-mod2 > img{
+    display: none;
+  }
+  .cmi-mod2 {
+    margin-top: 20px;
+    padding: 0px 0 28px;
+    position: relative;
+  }
+  .cmi-mod2 .container{
+    width: 90%;
+  }
+}
